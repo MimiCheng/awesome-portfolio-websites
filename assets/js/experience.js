@@ -9,22 +9,37 @@ const exp = [
     title: "Machine Learning Engineer Intern",
     cardImage: "assets/images/experience-page/jumio.jpeg",
     place: "Jumio",
-    time: "(May, 21 - present)",
+    time: "(May 2021 - present)",
     desp: "<li>Developed self-supervised learning models such as Bootstrap Your Own Latent (BYOL) and Autoencoder for image search.</li> <li>Integrating and training ML models from POC to production using AWS.</li> <li>Designed and created experiments to test the image search results.</li>",
   },
   {
     title: "AI Engineer",
-    cardImage: "assets/images/experience-page/truedigital.png",
+    cardImage: "assets/images/experience-page/truedigital.jpeg",
     place: "True Digital Group",
-    time: "(Nov, 17 - Jul, 20)",
+    time: "(Nov 2017 - Jul 2020)",
     desp: "<li>Built, validated, tested, and identified improvement for movie and music recommendation systems with neural networks such as RNN, CNN, Attention models using Keras and Tensorflow.</li><li>Extracted document features by ​using​ Natural Language ​Processing​ ​models​ such as TF-IDF, LDA, doc2vec, and word2vec.</li><li>Productionized​ data pre-​processing​ (ETL) jobs and machine learning models written in Scala and Python.</li><li>Developed internal utilities for the whole team used</li>",
   },
   {
+    title: "Language Specialist (Thai)",
+    cardImage: "assets/images/experience-page/cerence.jpeg",
+    place: "Cerence",
+    time: "(Jun 2019 - Sep 2020)",
+    desp: "<li>Generated new resources for the Thai language such as grammar, dictionary, and annotated data for automobile and handset domains.</li><li>Developed high-performance cloud-based Thai Natural Language Understanding (NLU) solutions in the R&D department.</li>",
+  },
+
+  {
     title: "Data Scientist",
-    cardImage: "assets/images/experience-page/g-able.jpg",
+    cardImage: "assets/images/experience-page/g-able.png",
     place: "G-able Group",
-    time: "(Aug, 16 - Apr, 17)",
-    desp:"<li>Built predictive analytics on CRM banking data using statistics and machine learning techniques.</li>",
+    time: "(Aug 2016 - Apr 2017)",
+    desp:"<li>Built predictive analytics on CRM banking data using statistics and machine learning techniques using Python, Scala, and R.</li>",
+  },
+  {
+    title: "Data Analyst Intern",
+    cardImage: "assets/images/experience-page/aig.png",
+    place: "AIG Insurance (Thailand)",
+    time: "(Jun 2015 - Jul 2015)",
+    desp:"<li>Analyzed market trends on Indonesia’s automobile claimed data to produce marketing strategies using R.</li>",
   },
 ];
 
@@ -58,55 +73,37 @@ const showCards2 = () => {
 };
 document.addEventListener("DOMContentLoaded", showCards2);
 
-//
-// // Volunteership Cards
-//
-// const volunteership = document.querySelector(".volunteership");
-// const volunteershipcards = [
-//   {
-//     title: "GirlScript Summer Of Code 2020",
-//     cardImage: "assets/images/experience-page/1.jpg",
-//     description:
-//       "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
-//   },
-//   {
-//     title: "StudentCode-in 2020",
-//     cardImage: "assets/images/experience-page/2.jpg",
-//     description:
-//       "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
-//   },
-//   {
-//     title: "PClub Summer Of Code 2020",
-//     cardImage: "assets/images/experience-page/3.jpg",
-//     description:
-//       "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
-//   },
-//   {
-//     title: "Hakin-Codes",
-//     cardImage: "assets/images/experience-page/4.jpg",
-//     description:
-//       "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
-//   },
-// ];
-//
-// const showCards = () => {
-//   let output = "";
-//   volunteershipcards.forEach(
-//     ({ title, cardImage, description }) =>
-//       (output += `
-//       <div class="card volunteerCard" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="600" style="height: 550px;width:400px">
-//
-//       <img src="${cardImage}" height="250" width="65" class="card-img" style="border-radius:10px">
-//       <div class="content">
-//           <h2 class="volunteerTitle">${title}</h2><br>
-//           <p class="copy">${description}</p></div>
-//
-//       </div>
-//       `)
-//   );
-//   volunteership.innerHTML = output;
-// };
-// document.addEventListener("DOMContentLoaded", showCards);
+
+// Volunteership Cards
+
+const volunteership = document.querySelector(".volunteership");
+const volunteershipcards = [
+  {
+    title: "Siam Innovation District (SID) Tech Talent",
+    cardImage: "assets/images/experience-page/cuhub.png",
+    description:
+      "TAing a 6 weeks intensive machine learning course from fundamentals to developing algorithms for hackathon projects.",
+  }
+];
+
+const showCards = () => {
+  let output = "";
+  volunteershipcards.forEach(
+    ({ title, cardImage, description }) =>
+      (output += `
+      <div class="card volunteerCard" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="600" style="height: 550px;width:400px">
+
+      <img src="${cardImage}" height="250" width="65" class="card-img" style="border-radius:10px">
+      <div class="content">
+          <h2 class="volunteerTitle">${title}</h2><br>
+          <p class="copy">${description}</p></div>
+
+      </div>
+      `)
+  );
+  volunteership.innerHTML = output;
+};
+document.addEventListener("DOMContentLoaded", showCards);
 
 
 // Hackathon Section
@@ -115,49 +112,11 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const hackathonsection = document.querySelector(".hackathon-section");
 const mentor = [
   {
-    title: "The Uplift Project",
-    subtitle: "Metor",
-    image: "assets/images/experience-page/uplift.png",
-    desp: "I would be responsible for guiding 100s of participants across the globe in their first steps towards Applied Data Science and building end-to-end machine learning projects.",
-  },
-  {
-    title: "ULHacks",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/ulhacks.png",
-    desp: "ULHacks is a 36 hour long hackathon organized with an aim to enable students to create a project which empowers learning.",
-  },
-  {
-    title: "WaffleHacks",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/wafflehacks.png",
-    desp: "WaffleHacks 2021 is an upcoming 48-hour student-organized hackathon with an aim to bring technical solutions to local communities and small businesses.",
-  },
-  {
-    title: "Elevate Tech",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/elevate.png",
-    desp: "Elevate Hacks is an upcoming all-female virtual hackathon coming from AUGUST 14th to 15th.",
-  },
-  {
-    title: "PitchTeen",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/pitchteen.png",
-    desp: "PitchTeen 2.0 was a tech startup competition for female and non-binary communities in high school and college from all over the world with an aim to create a safe and encouraging place for women to help them explore tech and business fields.",
-  },
-  {
-    title: "Hack-A-Solution",
-    subtitle: "Judge",
+    title: "The Siam Innovation District (SID) TechTalent - Build Smarter Products with Machine Learning Hackathon",
+    subtitle: "TA and Participant",
     image: "assets/images/experience-page/hackasolution.png",
-    desp: "Hack-a-Solution 2021 is a 24 hour long hackathon organized by Frisco students to raise awareness of world issues through technology.",
+    desp: "SID Tech Talent is a 48 hour long hackathon organized by CU Innovation Hub for trainees to apply the knowledge from the machine learning courses on solving real-world problems.",
   },
-  {
-    title: "UniGlobe Hacks",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/uniglobe.png",
-    desp: "UniGlobe Hacks 2.0 is an upcoming 4-day long hackathon run by high school students held during 28-31 July 2021.",
-  },
-
-
 ];
 
 const showCards3 = () => {

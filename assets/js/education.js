@@ -100,9 +100,19 @@ document.addEventListener("DOMContentLoaded", showCards);
 const bagdes = document.querySelector(".badges");
 const badgesection = [
   {
-    title: "Google Cloud Training",
-    image: "assets/images/education-page/badge.png",
-    description: "Earned Apr 05, 2020",
+    title: "Google Developer Essentials",
+    image: "assets/images/education-page/badge1.png",
+    description: "Earned May 20, 2020",
+  },
+  {
+    title: "VM Migration",
+    image: "assets/images/education-page/badge2.png",
+    description: "Earned June 20, 2020",
+  },
+  {
+    title: "G Suite Essentials",
+    image: "assets/images/education-page/badge3.png",
+    description: "Earned July 20, 2020",
   },
 ];
 
@@ -124,51 +134,54 @@ document.addEventListener("DOMContentLoaded", showCards1);
 
 /* Timeline Section*/
 
-const timeline = document.querySelector(".timeline-container");
-const timelinesection = [
-  {
-    heading: "MILA - Quebec AI Institute",
-    image: "assets/images/education-page/mila.png",
-    subheading: "Professional Masters in Machine Learning (2020-2022)",
-    description: "<li>Recipient of Microsoft Diversity Award</li><li>SpeechBrain(an open-source speech toolkit) Contributor</li>",
-  },
+$(function(){
 
-  {
-    heading: "University of Montreal",
-    image: "assets/images/education-page/udem.jpeg",
-    subheading: "Masters of Science in Computer Science (2020-2022)",
-    description: "<li>Fundamentals of Machine Learning</li><li>Data Science</li><li>Representation Learning</li><li>Advance Machine Learning Project</li><li>Data Structure</li><li>Introduction to Algorithms</li>",
-  },
-  {
-    heading: "Chulalongkorn University",
-    image: "assets/images/education-page/chula.png",
-    subheading: "Bachelors of Science in Statistics, Minor in Acturial Science (2012-2016)",
-    description: "<li>Led the team to win 1st runner-up in critical thinking skill development competition held by Statistics Department.</li><li>Past into the final round of Thailand Big Data Challenge #2</li><li>Member of CU Photography Club.</li>",
-  },
+  window.sr = ScrollReveal();
 
-];
+  if ($(window).width() < 768) {
 
-const showCards2 = () => {
-  let output = "";
-  timelinesection.forEach(
-    ({ heading, image, subheading, description }) =>
-    (output += `
-    <div class="timeline-item">
-    <div class="timeline-img">
+    if ($('.timeline-content').hasClass('js--fadeInLeft')) {
+      $('.timeline-content').removeClass('js--fadeInLeft').addClass('js--fadeInRight');
+    }
 
-    </div>
+    sr.reveal('.js--fadeInRight', {
+      origin: 'right',
+      distance: '300px',
+      easing: 'ease-in-out',
+      duration: 800,
+    });
 
-    <div class="timeline-content js--fadeInLeft">
-        <img src="${image}">
-    <div class="timeline-content-text">
-      <h2>${heading}</h2>
-      <h6>${subheading}</h6>
-      <p>${description}</p>
+  } else {
 
-    </div>
-    </div>
-  </div>`)
-  );
-  timeline.innerHTML = output;
-};
-document.addEventListener("DOMContentLoaded", showCards2);
+    sr.reveal('.js--fadeInLeft', {
+      origin: 'left',
+      distance: '300px',
+      easing: 'ease-in-out',
+      duration: 800,
+    });
+
+    sr.reveal('.js--fadeInRight', {
+      origin: 'right',
+      distance: '300px',
+      easing: 'ease-in-out',
+      duration: 800,
+    });
+
+  }
+
+  sr.reveal('.js--fadeInLeft', {
+      origin: 'left',
+      distance: '300px',
+      easing: 'ease-in-out',
+      duration: 800,
+    });
+
+    sr.reveal('.js--fadeInRight', {
+      origin: 'right',
+      distance: '300px',
+      easing: 'ease-in-out',
+      duration: 800,
+    });
+
+
+});
