@@ -111,51 +111,51 @@ document.addEventListener("DOMContentLoaded", showCards2);
 
 // Hackathon Section
 
-//
-// const hackathonsection = document.querySelector(".hackathon-section");
-// const mentor = [
-//   {
-//     title: "The Uplift Project",
-//     subtitle: "Metor",
-//     image: "assets/images/experience-page/uplift.png",
-//     desp: "I would be responsible for guiding 100s of participants across the globe in their first steps towards Applied Data Science and building end-to-end machine learning projects.",
-//   },
-//   {
-//     title: "ULHacks",
-//     subtitle: "Judge",
-//     image: "assets/images/experience-page/ulhacks.png",
-//     desp: "ULHacks is a 36 hour long hackathon organized with an aim to enable students to create a project which empowers learning.",
-//   },
-//   {
-//     title: "WaffleHacks",
-//     subtitle: "Judge",
-//     image: "assets/images/experience-page/wafflehacks.png",
-//     desp: "WaffleHacks 2021 is an upcoming 48-hour student-organized hackathon with an aim to bring technical solutions to local communities and small businesses.",
-//   },
-//   {
-//     title: "Elevate Tech",
-//     subtitle: "Judge",
-//     image: "assets/images/experience-page/elevate.png",
-//     desp: "Elevate Hacks is an upcoming all-female virtual hackathon coming from AUGUST 14th to 15th.",
-//   },
-//   {
-//     title: "PitchTeen",
-//     subtitle: "Judge",
-//     image: "assets/images/experience-page/pitchteen.png",
-//     desp: "PitchTeen 2.0 was a tech startup competition for female and non-binary communities in high school and college from all over the world with an aim to create a safe and encouraging place for women to help them explore tech and business fields.",
-//   },
-//   {
-//     title: "Hack-A-Solution",
-//     subtitle: "Judge",
-//     image: "assets/images/experience-page/hackasolution.png",
-//     desp: "Hack-a-Solution 2021 is a 24 hour long hackathon organized by Frisco students to raise awareness of world issues through technology.",
-//   },
-//   {
-//     title: "UniGlobe Hacks",
-//     subtitle: "Judge",
-//     image: "assets/images/experience-page/uniglobe.png",
-//     desp: "UniGlobe Hacks 2.0 is an upcoming 4-day long hackathon run by high school students held during 28-31 July 2021.",
-//   },
+
+const hackathonsection = document.querySelector(".hackathon-section");
+const mentor = [
+  {
+    title: "The Uplift Project",
+    subtitle: "Metor",
+    image: "assets/images/experience-page/uplift.png",
+    desp: "I would be responsible for guiding 100s of participants across the globe in their first steps towards Applied Data Science and building end-to-end machine learning projects.",
+  },
+  {
+    title: "ULHacks",
+    subtitle: "Judge",
+    image: "assets/images/experience-page/ulhacks.png",
+    desp: "ULHacks is a 36 hour long hackathon organized with an aim to enable students to create a project which empowers learning.",
+  },
+  {
+    title: "WaffleHacks",
+    subtitle: "Judge",
+    image: "assets/images/experience-page/wafflehacks.png",
+    desp: "WaffleHacks 2021 is an upcoming 48-hour student-organized hackathon with an aim to bring technical solutions to local communities and small businesses.",
+  },
+  {
+    title: "Elevate Tech",
+    subtitle: "Judge",
+    image: "assets/images/experience-page/elevate.png",
+    desp: "Elevate Hacks is an upcoming all-female virtual hackathon coming from AUGUST 14th to 15th.",
+  },
+  {
+    title: "PitchTeen",
+    subtitle: "Judge",
+    image: "assets/images/experience-page/pitchteen.png",
+    desp: "PitchTeen 2.0 was a tech startup competition for female and non-binary communities in high school and college from all over the world with an aim to create a safe and encouraging place for women to help them explore tech and business fields.",
+  },
+  {
+    title: "Hack-A-Solution",
+    subtitle: "Judge",
+    image: "assets/images/experience-page/hackasolution.png",
+    desp: "Hack-a-Solution 2021 is a 24 hour long hackathon organized by Frisco students to raise awareness of world issues through technology.",
+  },
+  {
+    title: "UniGlobe Hacks",
+    subtitle: "Judge",
+    image: "assets/images/experience-page/uniglobe.png",
+    desp: "UniGlobe Hacks 2.0 is an upcoming 4-day long hackathon run by high school students held during 28-31 July 2021.",
+  },
 
 
 ];
