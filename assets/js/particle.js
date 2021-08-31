@@ -27,7 +27,7 @@ particlesJS('particles-js', {
 				height: 100
 			}
 		},
-		
+
 		opacity: {
 			value: 1,
 			random: false,
