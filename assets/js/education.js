@@ -29,7 +29,7 @@ const experience = [
     img: "assets/images/education-page/c2.png"
   },
   {
-    img: "assets/images/education-page/c3.png"
+    img: "assets/images/education-page/c3.jpeg"
   },
   {
     img: "assets/images/education-page/c4.jpeg"
@@ -136,14 +136,14 @@ const timelinesection = [
   {
     heading: "University of Montreal",
     image: "assets/images/education-page/udem.jpeg",
-    subheading: "Masters of Science, Computer Science (2020-2022)",
-    description: "<li>IFT6390-Fundamentals of Machine Learning</li><li>IFT6758-Data Science</li><li>IFT6135-Representation Learning</li><li>IFT6759-Advance Machine Learning Project</li><li>IFT2015-Data Structure</li><li>IFT2125-Introduction to Algorithms</li>",
+    subheading: "Masters of Science in Computer Science (2020-2022)",
+    description: "<li>Fundamentals of Machine Learning</li><li>Data Science</li><li>Representation Learning</li><li>Advance Machine Learning Project</li><li>Data Structure</li><li>Introduction to Algorithms</li>",
   },
   {
     heading: "Chulalongkorn University",
     image: "assets/images/education-page/chula.png",
-    subheading: "Bachelors of Science in Statistics, Minor Acturial Science (2012-2016)",
-    description: "<li>Led the team to win 1st runner-up in critical thinking skill development competition held by Statistics Department out of over 40 teams.</li><li>Best undergraduate Reseracher</li><li>Past into the final round of Thailand Big Data Challenge #2</li><li>Member of Photography Club</li>",
+    subheading: "Bachelors of Science in Statistics, Minor in Acturial Science (2012-2016)",
+    description: "<li>Led the team to win 1st runner-up in critical thinking skill development competition held by Statistics Department.</li><li>Past into the final round of Thailand Big Data Challenge #2</li><li>Member of CU Photography Club.</li>",
   },
 
 ];

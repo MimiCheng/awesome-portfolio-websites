@@ -71,18 +71,18 @@ const projects = [
     Githublink: "",
   },
   {
-    title: "Minesweeper Game",
-    cardImage: "assets/images/project-page/minesweeper.jpg",
+    title: "Lung diseases Classification on Mobile Application",
+    cardImage: "assets/images/project-page/lung.png",
     description:
-      "Minesweeper Game built using python Object Oriented Programming.",
+      "Modified InceptionV3, a pretrained neural network widely use for one-class classification to predict multi-class classification problem 4whGxt3lM9egyG3I75y09XUYSjppugoR8zaUOriga1NGsb1vkPu Tensorflow and Nodejs.",
     tagimg: "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
-    Previewlink: "",
-    Githublink: "",
+    Previewlink: "https://devpost.com/software/lung-disease-classification-on-mobile-application",
+    Githublink: "https://github.com/MimiCheng/tensorflow_lung",
   },
   {
-    title: "Battery Life Calculator",
+    title: "Card Segmentation",
     cardImage: "assets/images/project-page/battery.png",
-    description: "Built battery life calculator using Python.",
+    description: "Built a card segmentation using U-Net with Resnet34 backbone, encoder weights were pretrained on the Imagenet. The project is implemented in Pytorch Lightning.",
     tagimg: "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
     Previewlink: "",
     Githublink: "",
@@ -97,11 +97,11 @@ const projects = [
   },
   {
     title: "Music Recommendation Engine",
-    cardImage: "assets/images/project-page/music.jpg",
-    description: "Built using Python.",
+    cardImage: "assets/images/project-page/music.jpeg",
+    description: "Built a content-based recommendation system with GPUs and LSTMs using Keras.",
     tagimg: "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
     Previewlink: "",
-    Githublink: "",
+    Githublink: "https://github.com/MimiCheng/Music-Recommender-with-RNN",
   },
 ];
 
