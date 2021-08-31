@@ -15,9 +15,44 @@ const moocscards = [
     moocLink: "https://www.coursera.org/account/accomplishments/specialization/J5MZE7AVYAU4",
   },
   {
-    title: "Natural Language Processing Fundamentals in Pythodatacamp",
+    title: "Neural Networks and Deep Learning",
+    cardImage: "assets/images/education-page/coursera1.png",
+    moocLink: "https://www.coursera.org/account/accomplishments/verify/EH7AZ5SXQZFL",
+  },
+  {
+    title: "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization",
+    cardImage: "assets/images/education-page/coursera1.png",
+    moocLink: "https://www.coursera.org/account/accomplishments/verify/QH5X8US2DNND",
+  },
+  {
+    title: "Structuring Machine Learning Projects",
+    cardImage: "assets/images/education-page/coursera1.png",
+    moocLink: "https://www.coursera.org/account/accomplishments/verify/QH5X8US2DNND",
+  },
+  {
+    title: "Sequence Models",
+    cardImage: "assets/images/education-page/coursera1.png",
+    moocLink: "https://www.coursera.org/account/accomplishments/verify/GPN3AABGZ4CB",
+  },
+  {
+    title: "Convolutional Neural Networks",
+    cardImage: "assets/images/education-page/coursera1.png",
+    moocLink: "https://www.coursera.org/account/accomplishments/verify/6DLCSS2EJTHP",
+  },
+  {
+    title: "Natural Language Processing Fundamentals in Python",
     cardImage: "assets/images/education-page/datacamp.png",
     moocLink: "https://www.datacamp.com/statement-of-accomplishment/course/8bd5e1e70247c3963edb2dc4b2039308cebb7614",
+  },
+  {
+    title: "Exploratory Data Analysis in Python",
+    cardImage: "assets/images/education-page/datacamp.png",
+    moocLink: "https://www.datacamp.com/statement-of-accomplishment/course/1665eefdd064a66821c54466db3681109efc834d",
+  },
+  {
+    title: "Intermediate Data Visualization with Seaborn",
+    cardImage: "assets/images/education-page/datacamp.png",
+    moocLink: "https://www.datacamp.com/statement-of-accomplishment/course/8f2e974268b6e218d0988da3056dcbf4adad487c",
   },
 ];
 
@@ -100,19 +135,9 @@ document.addEventListener("DOMContentLoaded", showCards);
 const bagdes = document.querySelector(".badges");
 const badgesection = [
   {
-    title: "Google Developer Essentials",
-    image: "assets/images/education-page/badge1.png",
-    description: "Earned May 20, 2020",
-  },
-  {
-    title: "VM Migration",
-    image: "assets/images/education-page/badge2.png",
-    description: "Earned June 20, 2020",
-  },
-  {
-    title: "G Suite Essentials",
-    image: "assets/images/education-page/badge3.png",
-    description: "Earned July 20, 2020",
+    title: "Google Cloud Training",
+    image: "assets/images/education-page/badge.png",
+    description: "Earned Apr 05, 2020",
   },
 ];
 
@@ -134,54 +159,51 @@ document.addEventListener("DOMContentLoaded", showCards1);
 
 /* Timeline Section*/
 
-$(function(){
+const timeline = document.querySelector(".timeline-container");
+const timelinesection = [
+  {
+    heading: "MILA - Quebec AI Institute",
+    image: "assets/images/education-page/mila.png",
+    subheading: "Professional Masters in Machine Learning (2020-Present)",
+    description: "<li>Recipient of Microsoft Diversity Award</li><li>SpeechBrain(an open-source speech toolkit) Contributor</li>",
+  },
 
-  window.sr = ScrollReveal();
+  {
+    heading: "University of Montreal",
+    image: "assets/images/education-page/udem.jpeg",
+    subheading: "Masters of Science in Computer Science (2020-Present)",
+    description: "<li>Fundamentals of Machine Learning</li><li>Data Science</li><li>Representation Learning</li><li>Advance Machine Learning Project</li><li>Data Structure</li><li>Introduction to Algorithms</li>",
+  },
+  {
+    heading: "Chulalongkorn University",
+    image: "assets/images/education-page/chula.png",
+    subheading: "Bachelors of Science in Statistics, Minor in Acturial Science (2012-2016)",
+    description: "<li>Led the team to win 1st runner-up in critical thinking skill development competition held by Statistics Department.</li><li>Past into the final round of Thailand Big Data Challenge #2</li><li>Member of CU Photography Club.</li>",
+  },
 
-  if ($(window).width() < 768) {
+];
 
-    if ($('.timeline-content').hasClass('js--fadeInLeft')) {
-      $('.timeline-content').removeClass('js--fadeInLeft').addClass('js--fadeInRight');
-    }
+const showCards2 = () => {
+  let output = "";
+  timelinesection.forEach(
+    ({ heading, image, subheading, description }) =>
+    (output += `
+    <div class="timeline-item">
+    <div class="timeline-img">
 
-    sr.reveal('.js--fadeInRight', {
-      origin: 'right',
-      distance: '300px',
-      easing: 'ease-in-out',
-      duration: 800,
-    });
+    </div>
 
-  } else {
+    <div class="timeline-content js--fadeInLeft">
+        <img src="${image}">
+    <div class="timeline-content-text">
+      <h2>${heading}</h2>
+      <h6>${subheading}</h6>
+      <p>${description}</p>
 
-    sr.reveal('.js--fadeInLeft', {
-      origin: 'left',
-      distance: '300px',
-      easing: 'ease-in-out',
-      duration: 800,
-    });
-
-    sr.reveal('.js--fadeInRight', {
-      origin: 'right',
-      distance: '300px',
-      easing: 'ease-in-out',
-      duration: 800,
-    });
-
-  }
-
-  sr.reveal('.js--fadeInLeft', {
-      origin: 'left',
-      distance: '300px',
-      easing: 'ease-in-out',
-      duration: 800,
-    });
-
-    sr.reveal('.js--fadeInRight', {
-      origin: 'right',
-      distance: '300px',
-      easing: 'ease-in-out',
-      duration: 800,
-    });
-
-
-});
+    </div>
+    </div>
+  </div>`)
+  );
+  timeline.innerHTML = output;
+};
+document.addEventListener("DOMContentLoaded", showCards2);

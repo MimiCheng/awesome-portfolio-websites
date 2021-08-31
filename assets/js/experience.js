@@ -32,7 +32,7 @@ const exp = [
     cardImage: "assets/images/experience-page/g-able.png",
     place: "G-able Group",
     time: "(Aug 2016 - Apr 2017)",
-    desp:"<li>Built predictive analytics on CRM banking data using statistics and machine learning techniques using Python, Scala, and R.</li>",
+    desp:"<li>Built predictive analytics on CRM banking data using statistics and machine learning techniques using Python, Scala, and R.</li><li>Used Kafka and Spark Streaming with Scala to analyze real-time banking fraudulent transactions.</li>",
   },
   {
     title: "Data Analyst Intern",
@@ -79,6 +79,12 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
+    title: "Speech Brain Open Source - Speech Separation for Unknown Number of Speakers",
+    cardImage: "assets/images/experience-page/speechbrain.png",
+    description:
+      "Decomposed a mixed signal into the origibnal signals prior to the mixing procedure. The goal is to improve the accuracy of speech recognition with unknown number of speakers. The work is heavily inspired by current famous speech separation models such as DPRNN, Contasnet, and Sepformer in SpeechBrain.",
+  },
+  {
     title: "Siam Innovation District (SID) Tech Talent",
     cardImage: "assets/images/experience-page/cuhub.png",
     description:
@@ -112,8 +118,32 @@ document.addEventListener("DOMContentLoaded", showCards);
 const hackathonsection = document.querySelector(".hackathon-section");
 const mentor = [
   {
+    title: "Kaggle Competition - Human Protein Classification with Pytorch",
+    subtitle: "Rank 1/894 on private leaderboard",
+    image: "assets/images/experience-page/kaggle.png",
+    desp: "Developed models to classify mixed patterns of proteins in microscope images using Pytorch.",
+  },
+  {
+    title: "In-class Machine Learning Competition - Classification de dessins",
+    subtitle: "Rank 5/68 on private leaderboard",
+    image: "assets/images/experience-page/dessin.png",
+    desp: "Developed models to classify from 6 classes: [ant, spider, flower, dolphin, lobster, bulldozer]. These image were hand drawn by people around the world, as part of the project Quickdraw.",
+  },
+  {
+    title: "In-class Data Science Competition - Social Media Prediction",
+    subtitle: "Rank 4/31 on private leaderboard",
+    image: "assets/images/project-page/socialmedia.jpeg",
+    desp: "Developed models to predict the number of 'likes' for given details about the simulated profiles of users on social media.",
+  },
+  {
+    title: "In-class Machine Learning Competition - Classification d'articles ArXiv",
+    subtitle: "Rank 23/115 on private leaderboard",
+    image: "assets/images/experience-page/article.jpeg",
+    desp: "Developed models to predict the number of 'likes' for given details about the simulated profiles of users on social media.",
+  },
+  {
     title: "The Siam Innovation District (SID) TechTalent - Build Smarter Products with Machine Learning Hackathon",
-    subtitle: "TA and Participant",
+    subtitle: "Best Showcase Project",
     image: "assets/images/experience-page/hackasolution.png",
     desp: "SID Tech Talent is a 48 hour long hackathon organized by CU Innovation Hub for trainees to apply the knowledge from the machine learning courses on solving real-world problems.",
   },
