@@ -79,10 +79,10 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "Speech Brain Open Source - Speech Separation for Unknown Number of Speakers",
+    title: "Speech Brain - Speech Separation for Unknown Number of Speakers",
     cardImage: "assets/images/experience-page/speechbrain.png",
     description:
-      "Decomposed a mixed signal into the origibnal signals prior to the mixing procedure. The goal is to improve the accuracy of speech recognition with unknown number of speakers. The work is heavily inspired by current famous speech separation models such as DPRNN, Contasnet, and Sepformer in SpeechBrain.",
+      "Decomposed a mixed signal into the origibnal signals prior to the mixing procedure. The goal is to improve the accuracy of speech recognition with unknown number of speakers.",
   },
   {
     title: "Siam Innovation District (SID) Tech Talent",
@@ -127,7 +127,7 @@ const mentor = [
     title: "In-class Machine Learning Competition - Classification de dessins",
     subtitle: "Rank 5/68 on private leaderboard",
     image: "assets/images/experience-page/dessin.png",
-    desp: "Developed models to classify from 6 classes: [ant, spider, flower, dolphin, lobster, bulldozer]. These image were hand drawn by people around the world, as part of the project Quickdraw.",
+    desp: "Developed models to classify muti-classes of hand drawn images by people around the world, as part of the project Quickdraw.",
   },
   {
     title: "In-class Data Science Competition - Social Media Prediction",
