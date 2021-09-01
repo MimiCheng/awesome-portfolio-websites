@@ -6,6 +6,15 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
+    title: "Implementing GANs from scratch",
+    cardImage: "assets/images/experience-page/speechbrain.png",
+    description:
+      "Improve accuracy upon State-of-the-art performance on speech separation with Conv-TasNet, DualPath RNN, and SepFormer.",
+    tagimg: "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
+    Previewlink: "",
+    Githublink: "https://github.com/mravanelli-mila/speechbrain_sep",
+  },
+  {
     title: "Speech Source Separation",
     cardImage: "assets/images/experience-page/speechbrain.png",
     description:
@@ -25,24 +34,24 @@ const projects = [
   },
   {
     title: "Card Segmentation",
-    cardImage: "assets/images/project-page/battery.png",
+    cardImage: "assets/images/project-page/segmentation.jpeg",
     description: "Built a card segmentation using U-Net with Resnet34 backbone, encoder weights were pretrained on the Imagenet. The project is implemented in Pytorch Lightning.",
     tagimg: "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
     Previewlink: "https://github.com/MimiCheng/card-segmentation/blob/main/README.md",
     Githublink: "https://github.com/MimiCheng/card-segmentation",
   },
   {
-    title: "Movie Recommendation System",
+    title: "Content-based Movie Recommendation System",
     cardImage: "assets/images/project-page/movie-recommendation.jpeg",
-    description: "Built using Tensorflow.",
-    tagimg: "https://cdn-images-1.medium.com/max/1200/1*iDQvKoz7gGHc6YXqvqWWZQ.png",
-    Previewlink: "",
-    Githublink: "",
+    description: "Built using Unsupervised Learning models Word2vec and Doc2vec. Evaluated the model using Triplet Loss",
+    tagimg: "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
+    Previewlink: "https://github.com/MimiCheng/card-segmentation/blob/main/README.md",
+    Githublink: "https://github.com/MimiCheng/card-segmentation",
   },
   {
     title: "Music Recommendation Engine",
     cardImage: "assets/images/project-page/music.jpeg",
-    description: "Built a content-based recommendation system with GPUs and LSTMs using Keras.",
+    description: "Built a recommendation system with GPUs and LSTMs using Keras.",
     tagimg: "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
     Previewlink: "https://github.com/MimiCheng/Music-Recommender-with-RNN",
     Githublink: "https://github.com/MimiCheng/Music-Recommender-with-RNN",

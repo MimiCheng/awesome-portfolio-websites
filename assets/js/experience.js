@@ -120,7 +120,7 @@ const mentor = [
   {
     title: "Kaggle Competition - Human Protein Classification with Pytorch",
     subtitle: "Rank 1/894 on private leaderboard",
-    image: "assets/images/experience-page/kaggle.png",
+    image: "assets/images/experience-page/protem_image.png",
     desp: "Developed models to classify mixed patterns of proteins in microscope images using Pytorch.",
   },
   {
@@ -144,7 +144,7 @@ const mentor = [
   {
     title: "The Siam Innovation District (SID) TechTalent - Build Smarter Products with Machine Learning Hackathon",
     subtitle: "Best Showcase Project",
-    image: "assets/images/experience-page/hackasolution.png",
+    image: "assets/images/experience-page/cuhub.png",
     desp: "SID Tech Talent is a 48 hour long hackathon organized by CU Innovation Hub for trainees to apply the knowledge from the machine learning courses on solving real-world problems.",
   },
 ];

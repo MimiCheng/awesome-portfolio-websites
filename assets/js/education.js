@@ -172,7 +172,7 @@ const timelinesection = [
     heading: "University of Montreal",
     image: "assets/images/education-page/udem.jpeg",
     subheading: "Masters of Science in Computer Science (2020-Present)",
-    description: "<li>Fundamentals of Machine Learning</li><li>Data Science</li><li>Representation Learning</li><li>Advance Machine Learning Project</li><li>Data Structure</li><li>Introduction to Algorithms</li>",
+    description: "<li>Fundamentals of Machine Learning</li> <li>Data Science</li> <li>Representation Learning</li> <li>Advance Machine Learning Project</li> <li>Data Structure</li> <li>Introduction to Algorithms</li>",
   },
   {
     heading: "Chulalongkorn University",
