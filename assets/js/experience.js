@@ -79,10 +79,10 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "Speech Brain - Speech Separation for Unknown Number of Speakers",
+    title: "Speech Brain",
     cardImage: "assets/images/experience-page/speechbrain.png",
     description:
-      "Decomposed a mixed signal into the origibnal signals prior to the mixing procedure. The goal is to improve the accuracy of speech recognition with unknown number of speakers.",
+      "Speech Separation for Unknown Number of Speakers. Decomposed a mixed signal into the original signals prior to the mixing procedure.",
   },
   {
     title: "Siam Innovation District (SID) Tech Talent",
@@ -119,27 +119,27 @@ const hackathonsection = document.querySelector(".hackathon-section");
 const mentor = [
   {
     title: "Kaggle Competition - Human Protein Classification with Pytorch",
-    subtitle: "Rank 1/894 on private leaderboard",
+    subtitle: "1st Place Solution. Rank 1/894 on private leaderboard",
     image: "assets/images/experience-page/protein_image.png",
     desp: "Developed models to classify mixed patterns of proteins in microscope images using Pytorch.",
     link: "https://github.com/MimiCheng/kaggle-protein-image-classification/blob/master/README.md"
   },
   {
-    title: "In-class Machine Learning Competition - Classification de dessins",
+    title: "Kaggle Competition - Classification de dessins",
     subtitle: "Rank 5/68 on private leaderboard",
     image: "assets/images/experience-page/dessin.png",
     desp: "Developed models to classify muti-classes of hand drawn images by people around the world, as part of the project Quickdraw.",
     link: "https://www.kaggle.com/c/ift3395-6390-quickdraw/leaderboard"
   },
   {
-    title: "In-class Data Science Competition - Social Media Prediction",
+    title: "Kaggle Competition - Social Media Prediction",
     subtitle: "Rank 4/31 on private leaderboard",
     image: "assets/images/project-page/socialmedia.jpeg",
     desp: "Developed models to predict the number of 'likes' for given details about the simulated profiles of users on social media.",
     link: "https://github.com/MimiCheng/kaggle-social-media-prediction/blob/main/README.md"
   },
   {
-    title: "In-class Machine Learning Competition - Classification d'articles ArXiv",
+    title: "Kaggle Competition - Classification d'articles ArXiv",
     subtitle: "Rank 23/115 on private leaderboard",
     image: "assets/images/experience-page/article.jpeg",
     desp: "Developed models to predict the number of 'likes' for given details about the simulated profiles of users on social media.",
