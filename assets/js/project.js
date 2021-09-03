@@ -6,16 +6,24 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
-    title: "Image Similarity",
-    cardImage: "assets/images/experience-page/gans.jpeg",
+    title: "Content-based Movie Recommendation System - Keras",
+    cardImage: "assets/images/project-page/movie-recommendation.jpeg",
+    description: "Built using Unsupervised Learning models Word2vec and Doc2vec. Evaluated the model using Triplet Loss",
+    tagimg: "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
+    Previewlink: "https://github.com/MimiCheng/card-segmentation/blob/main/README.md",
+    Githublink: "https://github.com/MimiCheng/card-segmentation",
+  },
+  {
+    title: "Image Similarity Search - Pytorch Lightning",
+    cardImage: "assets/images/experience-page/image-sim.jpeg",
     description:
       "",
     tagimg: "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
     Previewlink: "",
-    Githublink: "https://github.com/mravanelli-mila/speechbrain_sep",
+    Githublink: "",
   },
   {
-    title: "Speech Source Separation",
+    title: "Speech Source Separation - Pytorch",
     cardImage: "assets/images/experience-page/speechbrain.png",
     description:
       "Improve accuracy upon State-of-the-art performance on speech separation with Conv-TasNet, DualPath RNN, and SepFormer.",
@@ -24,7 +32,14 @@ const projects = [
     Githublink: "https://github.com/mravanelli-mila/speechbrain_sep",
   },
   {
-    title: "Lung diseases Classification on Mobile Application",
+    title: "Human Protein Classification - Pytorch",
+    cardImage: "assets/images/experience-page/protein_image.png",
+    description: "Developed models to classify mixed patterns of proteins in microscope images using Pytorch.",
+    Previewlink: "https://github.com/MimiCheng/kaggle-protein-image-classification/blob/master/README.md",
+    Githublink: "https://github.com/MimiCheng/kaggle-protein-image-classification/blob/master/README.md"
+  },
+  {
+    title: "Lung diseases Classification on Mobile Application - Tensorflow",
     cardImage: "assets/images/project-page/lung.png",
     description:
       "Modified InceptionV3, a pretrained neural network widely use for one-class classification to predict multi-class classification problem 4whGxt3lM9egyG3I75y09XUYSjppugoR8zaUOriga1NGsb1vkPu Tensorflow and Nodejs.",
@@ -33,7 +48,7 @@ const projects = [
     Githublink: "https://github.com/MimiCheng/tensorflow_lung",
   },
   {
-    title: "Card Segmentation",
+    title: "Card Edge Segmentation - Pytorch Lightning",
     cardImage: "assets/images/project-page/segmentation.jpeg",
     description: "Built a card segmentation using U-Net with Resnet34 backbone, encoder weights were pretrained on the Imagenet. The project is implemented in Pytorch Lightning.",
     tagimg: "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
@@ -41,15 +56,7 @@ const projects = [
     Githublink: "https://github.com/MimiCheng/card-segmentation",
   },
   {
-    title: "Content-based Movie Recommendation System",
-    cardImage: "assets/images/project-page/movie-recommendation.jpeg",
-    description: "Built using Unsupervised Learning models Word2vec and Doc2vec. Evaluated the model using Triplet Loss",
-    tagimg: "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
-    Previewlink: "https://github.com/MimiCheng/card-segmentation/blob/main/README.md",
-    Githublink: "https://github.com/MimiCheng/card-segmentation",
-  },
-  {
-    title: "Music Recommendation Engine",
+    title: "Music Recommendation Engine - Keras",
     cardImage: "assets/images/project-page/music.jpeg",
     description: "Built a recommendation system with GPUs and LSTMs using Keras.",
     tagimg: "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
