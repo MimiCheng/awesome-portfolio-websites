@@ -130,7 +130,7 @@ let footer = $(`
                 <h6 class="display">Get in Touch</h6>
               </div>
                 <form>
-                  <form action="mailto:mimicheng66@gmail.com" method="POST" accept-charset="UTF-8" >
+                  <form action="mailto:mimicheng66@gmail.com" method="POST" accept-charset="UTF-8" enctype="multipart/form-data" name="EmailForm">
                   <input type="text" name="field1" placeholder="Your Name" required/>
                   <input type="email" name="field2" placeholder="Email Address"  required/>
                   <textarea name="field3" placeholder="Type your Message" required></textarea>

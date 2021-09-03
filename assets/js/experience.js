@@ -119,28 +119,28 @@ const hackathonsection = document.querySelector(".hackathon-section");
 const mentor = [
   {
     title: "Kaggle Competition - Human Protein Classification with Pytorch",
-    subtitle: "1st Place Solution. Rank 1/894 on private leaderboard",
+    subtitle: "1st Place! Rank 1/894",
     image: "assets/images/experience-page/protein_image.png",
     desp: "Developed models to classify mixed patterns of proteins in microscope images using Pytorch.",
     link: "https://github.com/MimiCheng/kaggle-protein-image-classification/blob/master/README.md"
   },
   {
     title: "Kaggle Competition - Classification de dessins",
-    subtitle: "Rank 5/68 on private leaderboard",
+    subtitle: "Rank 5/68",
     image: "assets/images/experience-page/dessin.png",
     desp: "Developed models to classify muti-classes of hand drawn images by people around the world, as part of the project Quickdraw.",
     link: "https://www.kaggle.com/c/ift3395-6390-quickdraw/leaderboard"
   },
   {
     title: "Kaggle Competition - Social Media Prediction",
-    subtitle: "Rank 4/31 on private leaderboard",
+    subtitle: "Rank 4/31",
     image: "assets/images/project-page/socialmedia.jpeg",
     desp: "Developed models to predict the number of 'likes' for given details about the simulated profiles of users on social media.",
     link: "https://github.com/MimiCheng/kaggle-social-media-prediction/blob/main/README.md"
   },
   {
     title: "Kaggle Competition - Classification d'articles ArXiv",
-    subtitle: "Rank 23/115 on private leaderboard",
+    subtitle: "Rank 23/115",
     image: "assets/images/experience-page/article.jpeg",
     desp: "Developed models to predict the number of 'likes' for given details about the simulated profiles of users on social media.",
     link: "https://www.kaggle.com/c/ift3395-6390-arxiv/leaderboard"
