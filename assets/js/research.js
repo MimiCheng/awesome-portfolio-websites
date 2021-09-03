@@ -9,7 +9,7 @@ const research = [
         conferences : "IEEE Region Ten Conference",
         researchYr : 2018,
         citebox : "popup1",
-        image : "assets/images/research-page/inteferenceNetwork.png",
+        image : "assets/images/research-page/paper1.png",
         citation: {
             vancouver: "-"
         },
@@ -36,7 +36,7 @@ AOS.init();
 const fillData = () => {
     let output = "";
     research.forEach(
-        ({image, title, authors, conferences, researchYr, citebox, citation, absbox, abstract}) =>
+        ({image, title, authors, conferences, researchYr, citation, absbox, abstract}) =>
         (output +=`
             <tr data-aos="zoom-in-left">
                 <td class="imgCol"><img src="${image}" class="rImg"></td>
@@ -66,10 +66,6 @@ const fillData = () => {
                             ${abstract}
                         </div>
                     </div>
-                    // <div id="${citebox}" class="collapse" aria-labelledby="headingTwo" data-parent=".collapse">
-                    //     <div class="card-body">
-                    //         ${citation.vancouver}
-                    //     </div>
                     </div>
                 </td>
             </tr>`)
