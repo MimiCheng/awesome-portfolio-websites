@@ -20,7 +20,14 @@ const exp = [
     desp: "<li>Built, validated, tested, and identified improvement for movie and music recommendation systems with neural networks such as RNN, CNN, Attention models using Keras and Tensorflow.</li><li>Extracted document features by ​using​ Natural Language ​Processing​ ​models​ such as TF-IDF, LDA, doc2vec, and word2vec.</li><li>Productionized​ data pre-​processing​ (ETL) jobs and machine learning models written in Scala and Python.</li><li>Developed internal utilities for the whole team used</li>",
   },
   {
-    title: "Language Specialist (Thai)",
+    title: "Research Assistant (Contract)",
+    cardImage: "assets/images/experience-page/vistec.png",
+    place: "Vidyasirimedhi Institute of Science and Technology (VISTEC)",
+    time: "(Apr 2018 - Jul 2018)",
+    desp: "<li>Research Assistant at Bio-inspired Robotics and Neural Engineering Lab.</li><li>Researched, designed, and developed 5 experimental scenarios using CNN for predicting EEG signal processing, the model performed significantly higher accuracy than SVM in 4 tasks.</li>",
+  },
+  {
+    title: "Thai Language Specialist (Contract)",
     cardImage: "assets/images/experience-page/cerence.jpeg",
     place: "Cerence",
     time: "(Jun 2019 - Sep 2020)",
