@@ -16,26 +16,26 @@ const research = [
         abstract: "Deep learning approach is applied to a joint training scheme for asynchronous motor imagerybased Brain-Computer Interface (BCI). The proposed DL approach is a cascade of one-dimensional convolutional neural networks and fully-connected neural networks.",
         absbox: "absPopup1"
     },
-    // {
-    //     title : "Towards Asynchronous Motor Imagery-Based Brain-Computer Interfaces: a joint training scheme using deep learning",
-    //     authors : "Mikel Artetxe, Sebastian Ruder, Dani Yogatama, Gorka Labaka and Eneko Agirre",
-    //     conferences : "IEEE Region Ten Conference",
-    //     researchYr : 2018,
-    //     citebox : "popup2",
-    //     image : "assets/images/research-page/crossLingual.png",
-    //     citation: {
-    //         vancouver: "Mikel Artetxe, Sebastian Ruder, Dani Yogatama, Gorka Labaka and Eneko Agirre. A Call for More Rigor in Unsupervised Cross-lingual Learning. The 58th Annual Meeting of the Association for Computational Linguistics 2020."
-    //     },
-    //     abstract: "This is currently left empty and this can be considered as a dummy data 2",
-    //     absbox: "absPopup2"
-    // },
-
+    {
+        title : "Towards Asynchronous Motor Imagery-Based Brain-Computer Interfaces: a joint training scheme using deep learning",
+        authors : "Mikel Artetxe, Sebastian Ruder, Dani Yogatama, Gorka Labaka and Eneko Agirre",
+        conferences : "IEEE Region Ten Conference",
+        researchYr : 2018,
+        citebox : "popup2",
+        image : "assets/images/research-page/crossLingual.png",
+        citation: {
+            vancouver: "Mikel Artetxe, Sebastian Ruder, Dani Yogatama, Gorka Labaka and Eneko Agirre. A Call for More Rigor in Unsupervised Cross-lingual Learning. The 58th Annual Meeting of the Association for Computational Linguistics 2020."
+        },
+        abstract: "This is currently left empty and this can be considered as a dummy data 2",
+        absbox: "absPopup2"
+    },
 ];
+
 AOS.init();
 const fillData = () => {
     let output = "";
     research.forEach(
-        ({image, title, authors, conferences, researchYr, absbox, abstract}) =>
+        ({image, title, authors, conferences, researchYr, citebox, citation, absbox, abstract}) =>
         (output +=`
             <tr data-aos="zoom-in-left">
                 <td class="imgCol"><img src="${image}" class="rImg"></td>
@@ -65,6 +65,10 @@ const fillData = () => {
                             ${abstract}
                         </div>
                     </div>
+                    <div id="${citebox}" class="collapse" aria-labelledby="headingTwo" data-parent=".collapse">
+                        <div class="card-body">
+                            ${citation.vancouver}
+                        </div>
                     </div>
                 </td>
             </tr>`)

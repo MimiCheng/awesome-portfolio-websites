@@ -17,7 +17,7 @@ const exp = [
     cardImage: "assets/images/experience-page/truedigital.jpeg",
     place: "True Digital Group",
     time: "(Nov 2017 - Jul 2020)",
-    desp: "<li>Built, validated, tested, and identified improvement for movie and music recommendation systems with neural networks such as RNN, CNN, Attention models using Keras and Tensorflow.</li><li>Extracted document features by ​using​ Natural Language ​Processing​ ​models​ such as TF-IDF, LDA, doc2vec, and word2vec.</li><li>Productionized​ data pre-​processing​ (ETL) jobs and machine learning models written in Scala and Python.</li><li>Developed internal utilities for the whole team used</li>",
+    desp: "<li>Built, validated, tested, and identified improvement for recommendation systems with Neural Networks in an Agile Development.</li><li>Developed Natural Language ​Latent Representation using Self-Supervised methods such as LDA, Doc2vec, and Word2vec.</li><li>Productionized​ data pre-​processing​ (ETL) jobs and algorithms written in Scala and Python.</li><li>Developed movie personalized reranking models with listwise approaches for ordering movies on shelves based on the user's watch history.</li>",
   },
   {
     title: "Language Specialist (Thai)",
