@@ -17,7 +17,7 @@ const exp = [
     cardImage: "assets/images/experience-page/truedigital.jpeg",
     place: "True Digital Group",
     time: "(Nov 2017 - Jul 2020)",
-    desp: "<li>Built, validated, tested, and identified improvement for movie and music recommendation systems with neural networks such as RNN, CNN, Attention models using Keras and Tensorflow.</li><li>Extracted document features by ​using​ Natural Language ​Processing​ ​models​ such as TF-IDF, LDA, doc2vec, and word2vec.</li><li>Productionized​ data pre-​processing​ (ETL) jobs and machine learning models written in Scala and Python.</li><li>Developed internal utilities for the whole team used</li>",
+    desp: "<li>Built, validated, tested, and identified improvement for recommendation systems with Neural Networks in an Agile Development.</li><li>Developed Natural Language ​Latent Representation using Self-Supervised methods such as LDA, Doc2vec, and Word2vec.</li><li>Productionized​ data pre-​processing​ (ETL) jobs and algorithms written in Scala and Python.</li><li>Developed movie personalized reranking models with listwise approaches for ordering movies on shelves based on the user's watch history.</li>",
   },
   {
     title: "Research Assistant (Contract)",
@@ -86,10 +86,10 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "Speech Brain Open Source - Speech Separation for Unknown Number of Speakers",
+    title: "Speech Brain",
     cardImage: "assets/images/experience-page/speechbrain.png",
     description:
-      "Decomposed a mixed signal into the origibnal signals prior to the mixing procedure. The goal is to improve the accuracy of speech recognition with unknown number of speakers. The work is heavily inspired by current famous speech separation models such as DPRNN, Contasnet, and Sepformer in SpeechBrain.",
+      "Speech Separation for Unknown Number of Speakers. Decomposed a mixed signal into the original signals prior to the mixing procedure.",
   },
   {
     title: "Siam Innovation District (SID) Tech Talent",
@@ -126,40 +126,45 @@ const hackathonsection = document.querySelector(".hackathon-section");
 const mentor = [
   {
     title: "Kaggle Competition - Human Protein Classification with Pytorch",
-    subtitle: "Rank 1/894 on private leaderboard",
-    image: "assets/images/experience-page/kaggle.png",
+    subtitle: "1st Place! Rank 1/894",
+    image: "assets/images/experience-page/protein_image.png",
     desp: "Developed models to classify mixed patterns of proteins in microscope images using Pytorch.",
+    link: "https://github.com/MimiCheng/kaggle-protein-image-classification/blob/master/README.md"
   },
   {
-    title: "In-class Machine Learning Competition - Classification de dessins",
-    subtitle: "Rank 5/68 on private leaderboard",
+    title: "Kaggle Competition - Classification de dessins",
+    subtitle: "Rank 5/68",
     image: "assets/images/experience-page/dessin.png",
-    desp: "Developed models to classify from 6 classes: [ant, spider, flower, dolphin, lobster, bulldozer]. These image were hand drawn by people around the world, as part of the project Quickdraw.",
+    desp: "Developed models to classify muti-classes of hand drawn images by people around the world, as part of the project Quickdraw.",
+    link: "https://www.kaggle.com/c/ift3395-6390-quickdraw/leaderboard"
   },
   {
-    title: "In-class Data Science Competition - Social Media Prediction",
-    subtitle: "Rank 4/31 on private leaderboard",
+    title: "Kaggle Competition - Social Media Prediction",
+    subtitle: "Rank 4/31",
     image: "assets/images/project-page/socialmedia.jpeg",
     desp: "Developed models to predict the number of 'likes' for given details about the simulated profiles of users on social media.",
+    link: "https://github.com/MimiCheng/kaggle-social-media-prediction/blob/main/README.md"
   },
   {
-    title: "In-class Machine Learning Competition - Classification d'articles ArXiv",
-    subtitle: "Rank 23/115 on private leaderboard",
+    title: "Kaggle Competition - Classification d'articles ArXiv",
+    subtitle: "Rank 23/115",
     image: "assets/images/experience-page/article.jpeg",
     desp: "Developed models to predict the number of 'likes' for given details about the simulated profiles of users on social media.",
+    link: "https://www.kaggle.com/c/ift3395-6390-arxiv/leaderboard"
   },
   {
     title: "The Siam Innovation District (SID) TechTalent - Build Smarter Products with Machine Learning Hackathon",
     subtitle: "Best Showcase Project",
-    image: "assets/images/experience-page/hackasolution.png",
+    image: "assets/images/experience-page/cuhub.png",
     desp: "SID Tech Talent is a 48 hour long hackathon organized by CU Innovation Hub for trainees to apply the knowledge from the machine learning courses on solving real-world problems.",
+    link: "https://devpost.com/software/lung-disease-classification-on-mobile-application"
   },
 ];
 
 const showCards3 = () => {
   let output = "";
   mentor.forEach(
-    ({ title, image, subtitle, desp}) =>
+    ({ title, image, subtitle, desp, link}) =>
       (output += `
       <div class="blog-slider__item swiper-slide">
         <div class="blog-slider__img">
@@ -169,7 +174,7 @@ const showCards3 = () => {
           <div class="blog-slider__title">${title}</div>
           <span class="blog-slider__code">${subtitle}</span>
           <div class="blog-slider__text">${desp}</div>
-          <a href="#" class="blog-slider__button">Read More</a>
+          <a href=${link} class="blog-slider__button">Read More</a>
         </div>
       </div>
       `)

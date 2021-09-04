@@ -4,24 +4,23 @@ const researchTable = document.querySelector(".main");
 
 const research = [
     {
-        title : "A Batch Normalized Inference Network Keeps the KL Vanishing Away",
-        authors : "Qile Zhu, Wei Bi, Xiaojiang Liu, Xiyao Ma, Xiaolin Li and Dapeng Wu",
-        conferences : "The 58th Annual Meeting of the Association for Computational Linguistics",
-        researchYr : 2020,
+        title : "Towards Asynchronous Motor Imagery-Based Brain-Computer Interfaces: a joint training scheme using deep learning",
+        authors : "P.Cheng (First Author), P.Autthasan, B.Pijarana, E.Chuangsuwanich, and T.Wilaiprasitporn",
+        conferences : "IEEE Region Ten Conference",
+        researchYr : 2018,
         citebox : "popup1",
-        image : "assets/images/research-page/inteferenceNetwork.png",
+        image : "assets/images/research-page/paper1.png",
         citation: {
-            vancouver: "Qile Zhu, Wei Bi, Xiaojiang Liu, Xiyao Ma, Xiaolin Li and Dapeng Wu. A Batch Normalized Inference Network Keeps the KL Vanishing Away. The 58th Annual Meeting of the Association for Computational Linguistics 2020."
+            vancouver: "-"
         },
-        abstract: "This is currently left empty and this can be considered as a dummy data 1",
+        abstract: "Deep learning approach is applied to a joint training scheme for asynchronous motor imagerybased Brain-Computer Interface (BCI). The proposed DL approach is a cascade of one-dimensional convolutional neural networks and fully-connected neural networks.",
         absbox: "absPopup1"
     },
-
     {
-        title : "A Call for More Rigor in Unsupervised Cross-lingual Learning",
+        title : "Towards Asynchronous Motor Imagery-Based Brain-Computer Interfaces: a joint training scheme using deep learning",
         authors : "Mikel Artetxe, Sebastian Ruder, Dani Yogatama, Gorka Labaka and Eneko Agirre",
-        conferences : "The 58th Annual Meeting of the Association for Computational Linguistics",
-        researchYr : 2020,
+        conferences : "IEEE Region Ten Conference",
+        researchYr : 2018,
         citebox : "popup2",
         image : "assets/images/research-page/crossLingual.png",
         citation: {
@@ -30,49 +29,8 @@ const research = [
         abstract: "This is currently left empty and this can be considered as a dummy data 2",
         absbox: "absPopup2"
     },
-
-    {
-        title : "A Comprehensive Analysis of Preprocessing for Word Representation Learning in Affective Tasks",
-        authors : "Nastaran Babanejad, Ameeta Agrawal, Aijun An and Manos Papagelis",
-        conferences : "The 58th Annual Meeting of the Association for Computational Linguistics",
-        researchYr : 2020,
-        citebox : "popup3",
-        image : "assets/images/research-page/wordRepresentation.png",
-        citation: {
-            vancouver: "Nastaran Babanejad, Ameeta Agrawal, Aijun An and Manos Papagelis. A Comprehensive Analysis of Preprocessing for Word Representation Learning in Affective Tasks. The 58th Annual Meeting of the Association for Computational Linguistics 2020."
-        },
-        abstract: "This is currently left empty and this can be considered as a dummy data 3",
-        absbox: "absPopup3"
-    },
-
-    {
-        title : "A Contextual Hierarchical Attention Network with Adaptive Objective for Dialogue State Tracking",
-        authors : "Yong Shan, Zekang Li, Jinchao Zhang, Fandong Meng, Yang Feng, Cheng Niu and Jie Zhou",
-        conferences : "The 58th Annual Meeting of the Association for Computational Linguistics",
-        researchYr : 2020,
-        citebox : "popup4",
-        image : "assets/images/research-page/dialogueState.png",
-        citation: {
-            vancouver: "Yong Shan, Zekang Li, Jinchao Zhang, Fandong Meng, Yang Feng, Cheng Niu and Jie Zhou. A Contextual Hierarchical Attention Network with Adaptive Objective for Dialogue State Tracking. The 58th Annual Meeting of the Association for Computational Linguistics 2020."
-        },
-        abstract: "This is currently left empty and this can be considered as a dummy data 4",
-        absbox: "absPopup4"
-    },
-
-    {
-        title : "Dual Super-Resolution Learning for Semantic Segmentation",
-        authors : "Wang, Li and Li, Dong and Zhu, Yousong and Tian, Lu and Shan, Yi",
-        conferences : "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-        researchYr : 2020,
-        citebox : "popup5",
-        image : "assets/images/research-page/semanticSegmentation.png",
-        citation: {
-            vancouver: "Wang, Li and Li, Dong and Zhu, Yousong and Tian, Lu and Shan, Yi. Dual Super-Resolution Learning for Semantic Segmentation. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020."
-        },
-        abstract: "This is currently left empty and this can be considered as a dummy data 5",
-        absbox: "absPopup5"
-    },
 ];
+
 AOS.init();
 const fillData = () => {
     let output = "";

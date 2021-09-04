@@ -41,17 +41,17 @@ const moocscards = [
   },
   {
     title: "Natural Language Processing Fundamentals in Python",
-    cardImage: "assets/images/education-page/datacamp.png",
+    cardImage: "assets/images/education-page/datacamp.jpeg",
     moocLink: "https://www.datacamp.com/statement-of-accomplishment/course/8bd5e1e70247c3963edb2dc4b2039308cebb7614",
   },
   {
     title: "Exploratory Data Analysis in Python",
-    cardImage: "assets/images/education-page/datacamp.png",
+    cardImage: "assets/images/education-page/datacamp.jpeg",
     moocLink: "https://www.datacamp.com/statement-of-accomplishment/course/1665eefdd064a66821c54466db3681109efc834d",
   },
   {
     title: "Intermediate Data Visualization with Seaborn",
-    cardImage: "assets/images/education-page/datacamp.png",
+    cardImage: "assets/images/education-page/datacamp.jpeg",
     moocLink: "https://www.datacamp.com/statement-of-accomplishment/course/8f2e974268b6e218d0988da3056dcbf4adad487c",
   },
 ];
@@ -172,7 +172,7 @@ const timelinesection = [
     heading: "University of Montreal",
     image: "assets/images/education-page/udem.jpeg",
     subheading: "Masters of Science in Computer Science (2020-Present)",
-    description: "<li>Fundamentals of Machine Learning</li><li>Data Science</li><li>Representation Learning</li><li>Advance Machine Learning Project</li><li>Data Structure</li><li>Introduction to Algorithms</li>",
+    description: "<li>Fundamentals of Machine Learning</li> <li>Data Science</li> <li>Representation Learning</li> <li>Advance Machine Learning Project</li> <li>Data Structure</li> <li>Introduction to Algorithms</li>",
   },
   {
     heading: "Chulalongkorn University",
