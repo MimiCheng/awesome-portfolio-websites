@@ -26,7 +26,7 @@ const fillData = () => {
         ({image, title, authors, conferences, researchYr, citebox, citation, absbox, abstract}) =>
         (output +=`
           <tr data-aos="zoom-in-left">
-                <td class="imgCol"><img src="${image}" class="rImg"></td>
+              <td class="imgCol"><img src="${image}" class="rImg"></td>
                 <td class = "researchTitleName">
                     <div>
                         <span class="imgResponsive">
@@ -178,16 +178,16 @@ function myFunction() {
   title = document.getElementsByClassName("title");
 
   Loop through all list items, and hide those who don't match the search query
-  for (i = 0; i < button.length; i++) {
-    if (
-      button[i].innerHTML.toUpperCase().includes(input) ||
-      title[i].innerHTML.toUpperCase().includes(input)
-    ) {
-      skillcard[i].style.display = "";
-      card[i].style.display = "";
-    } else {
-      skillcard[i].style.display = "none";
-      card[i].style.display = "none";
-    }
-  }
+  // for (i = 0; i < button.length; i++) {
+  //   if (
+  //     button[i].innerHTML.toUpperCase().includes(input) ||
+  //     title[i].innerHTML.toUpperCase().includes(input)
+  //   ) {
+  //     skillcard[i].style.display = "";
+  //     card[i].style.display = "";
+  //   } else {
+  //     skillcard[i].style.display = "none";
+  //     card[i].style.display = "none";
+  //   }
+  // }
 }
