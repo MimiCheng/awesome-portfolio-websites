@@ -402,6 +402,21 @@ ul {
     /* margin: 1rem auto; */
 }
 
+/*For Changing background color of body according to theme*/
+
+body {
+  background: var(--bg-col) !important;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.p-upper {
+  color: var(--p-up);
+}
 
 /*Research page*/
 .container {
