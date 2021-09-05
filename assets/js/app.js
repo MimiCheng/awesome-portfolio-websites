@@ -126,7 +126,7 @@ let footer = $(`
         <div class="col-lg-6 col-md-12 mb-4 mb-md-0 form-comtainer">
           <div class="form-style-6">
              <div class="form-header">
-                <h6 class="display"><span class="email"><img src="assets/images/email.png" width="60px"></span> mimicheng66@gmail.com </h6>
+                <h6 class="display">mimicheng66@gmail.com</h6>
               </div>
              </div>
           </div>
