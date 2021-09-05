@@ -177,17 +177,17 @@ function myFunction() {
   card = document.getElementsByClassName("card");
   title = document.getElementsByClassName("title");
 
-  Loop through all list items, and hide those who don't match the search query
-  // for (i = 0; i < button.length; i++) {
-  //   if (
-  //     button[i].innerHTML.toUpperCase().includes(input) ||
-  //     title[i].innerHTML.toUpperCase().includes(input)
-  //   ) {
-  //     skillcard[i].style.display = "";
-  //     card[i].style.display = "";
-  //   } else {
-  //     skillcard[i].style.display = "none";
-  //     card[i].style.display = "none";
-  //   }
-  // }
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < button.length; i++) {
+    if (
+      button[i].innerHTML.toUpperCase().includes(input) ||
+      title[i].innerHTML.toUpperCase().includes(input)
+    ) {
+      skillcard[i].style.display = "";
+      card[i].style.display = "";
+    } else {
+      skillcard[i].style.display = "none";
+      card[i].style.display = "none";
+    }
+  }
 }
