@@ -8,14 +8,14 @@ const exp = [
   {
     title: "Machine Learning Engineer Intern",
     cardImage: "assets/images/experience-page/jumio.jpeg",
-    place: "Jumio (Fraud Squad)",
+    place: "Jumio",
     time: "(May 2021 - present)",
     desp: "<li>Developed self-supervised learning models such as Bootstrap Your Own Latent (BYOL) and Autoencoder for image search.</li> <li>Integrating and training ML models from POC to production using Amazon Web Services (AWS).</li> <li>Designed and created experiments to test the image search results.</li>",
   },
   {
     title: "AI Engineer",
     cardImage: "assets/images/experience-page/truedigital.jpeg",
-    place: "True Digital Group (Personalized and Recommendation Team)",
+    place: "True Digital Group",
     time: "(Nov 2017 - Jul 2020)",
     desp: "<li>Built, validated, tested, and identified improvement for recommendation systems with Neural Networks on Google Cloud Platform (GCP).</li><li>Developed Natural Language ​Latent Representation using Self-Supervised methods such as LDA, Doc2vec, and Word2vec.</li><li>Productionized​ data pre-​processing​ (ETL) jobs and algorithms written in Scala and Python.</li><li>Developed movie personalized reranking models with listwise approaches for ordering movies on shelves based on the user's watch history.</li>",
   },
@@ -126,28 +126,28 @@ const hackathonsection = document.querySelector(".hackathon-section");
 const mentor = [
   {
     title: "Kaggle Competition - Human Protein Classification with Pytorch",
-    subtitle: "1st Place! Rank 1/894",
+    subtitle: "1st Place - Rank 1/894",
     image: "assets/images/experience-page/protein_image.png",
     desp: "Developed models to classify mixed patterns of proteins in microscope images using Pytorch.",
     link: "https://github.com/MimiCheng/kaggle-protein-image-classification/blob/master/README.md"
   },
   {
     title: "Kaggle Competition - Classification de dessins",
-    subtitle: "Rank 5/68",
+    subtitle: "Ranked 5/68",
     image: "assets/images/experience-page/dessin.png",
     desp: "Developed models to classify muti-classes of hand drawn images by people around the world, as part of the project Quickdraw.",
     link: "https://www.kaggle.com/c/ift3395-6390-quickdraw/leaderboard"
   },
   {
     title: "Kaggle Competition - Social Media Prediction",
-    subtitle: "Rank 4/31",
+    subtitle: "Ranked 4/31",
     image: "assets/images/project-page/socialmedia.jpeg",
     desp: "Developed models to predict the number of 'likes' for given details about the simulated profiles of users on social media.",
     link: "https://github.com/MimiCheng/kaggle-social-media-prediction/blob/main/README.md"
   },
   {
     title: "Kaggle Competition - Classification d'articles ArXiv",
-    subtitle: "Rank 23/115",
+    subtitle: "Ranked 23/115",
     image: "assets/images/experience-page/article.jpeg",
     desp: "Developed models to predict the number of 'likes' for given details about the simulated profiles of users on social media.",
     link: "https://www.kaggle.com/c/ift3395-6390-arxiv/leaderboard"

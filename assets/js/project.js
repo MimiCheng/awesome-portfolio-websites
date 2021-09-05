@@ -64,7 +64,7 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
-    title: "Image Similarity Search - Autoencoder/ Siamese Network/ BYOL",
+    title: "Image Similarity Search",
     cardImage: "assets/images/experience-page/image-sim.jpeg",
     description: "",
     tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
@@ -72,7 +72,7 @@ const projects = [
     Githublink: "",
   },
   {
-    title: "Human Protein Classification - EfficientNets",
+    title: "Protein Classification",
     cardImage: "assets/images/experience-page/protein_image.png",
     description: "Exercise tracker built using basic redux.",
     tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
@@ -80,15 +80,15 @@ const projects = [
     Githublink: "https://github.com/MimiCheng/kaggle-protein-image-classification/blob/master/README.md"
   },
   {
-    title: "Card Edge Segmentation - U-Net",
-    cardImage: "assets/images/project-page/unet.jpeg",
+    title: "Card Edge Segmentation",
+    cardImage: "assets/images/project-page/unet.png",
     description: "Built a card segmentation using U-Net with Resnet34 backbone, encoder weights were pretrained on the Imagenet. The project is implemented in Pytorch Lightning.",
     tagimg: "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
     Previewlink: "https://github.com/MimiCheng/card-segmentation/blob/main/README.md",
     Githublink: "https://github.com/MimiCheng/card-segmentation",
   },
   {
-    title: "Content-based Movie Recommendation System - Doc2Vec",
+    title: "Movie Recommender",
     cardImage: "assets/images/project-page/movie-recommendation.jpeg",
     description: "Built using Unsupervised Learning models Word2vec and Doc2vec. Evaluated the model using Triplet Loss",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
@@ -96,7 +96,7 @@ const projects = [
     Githublink: "https://github.com/MimiCheng/card-segmentation",
   },
   {
-    title: "Music Recommendation Engine - LSTMs",
+    title: "Music Recommender",
     cardImage: "assets/images/project-page/music.jpeg",
     description: "Built a recommendation system with GPUs and LSTMs using Keras.",
     tagimg: "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
@@ -104,7 +104,7 @@ const projects = [
     Githublink: "https://github.com/MimiCheng/Music-Recommender-with-RNN",
   },
   {
-    title: "Hand-Drawn Image Classification - MobileNet V2",
+    title: "Hand-Drawn Image Classification",
     cardImage: "assets/images/project-page/dessin.png",
     description: "Built a recommendation system with GPUs and LSTMs using Keras.",
     tagimg: "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
@@ -112,7 +112,7 @@ const projects = [
     Githublink: "https://drive.google.com/file/d/1tfgJ_MxgMytwucmYpDEsGr6wLmeywDxd/view?usp=sharing",
   },
   {
-    title: "Lung diseases Classification on Mobile Application - Inception V3",
+    title: "Lung diseases Classification",
     cardImage: "assets/images/project-page/lung.png",
     description:
       "Modified InceptionV3, a pretrained neural network widely use for one-class classification to predict multi-class classification problem 4whGxt3lM9egyG3I75y09XUYSjppugoR8zaUOriga1NGsb1vkPu Tensorflow and Nodejs.",
@@ -170,16 +170,16 @@ function myFunction() {
   title = document.getElementsByClassName("title");
 
   // Loop through all list items, and hide those who don't match the search query
-  for (i = 0; i < button.length; i++) {
-    if (
-      button[i].innerHTML.toUpperCase().includes(input) ||
-      title[i].innerHTML.toUpperCase().includes(input)
-    ) {
-      skillcard[i].style.display = "";
-      card[i].style.display = "";
-    } else {
-      skillcard[i].style.display = "none";
-      card[i].style.display = "none";
-    }
-  }
+  // for (i = 0; i < button.length; i++) {
+  //   if (
+  //     button[i].innerHTML.toUpperCase().includes(input) ||
+  //     title[i].innerHTML.toUpperCase().includes(input)
+  //   ) {
+  //     skillcard[i].style.display = "";
+  //     card[i].style.display = "";
+  //   } else {
+  //     skillcard[i].style.display = "none";
+  //     card[i].style.display = "none";
+  //   }
+  // }
 }
