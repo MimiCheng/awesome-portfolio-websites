@@ -20,7 +20,14 @@ const exp = [
     desp: "<li>Built, validated, tested, and identified improvement for recommendation systems with Neural Networks in an Agile Development.</li><li>Developed Natural Language ​Latent Representation using Self-Supervised methods such as LDA, Doc2vec, and Word2vec.</li><li>Productionized​ data pre-​processing​ (ETL) jobs and algorithms written in Scala and Python.</li><li>Developed movie personalized reranking models with listwise approaches for ordering movies on shelves based on the user's watch history.</li>",
   },
   {
-    title: "Language Specialist (Thai)",
+    title: "Research Assistant (Contract)",
+    cardImage: "assets/images/experience-page/vistec.png",
+    place: "Vidyasirimedhi Institute of Science and Technology (VISTEC)",
+    time: "(Apr 2018 - Jul 2018)",
+    desp: "<li>Research Assistant at Bio-inspired Robotics and Neural Engineering Lab.</li><li>Researched, designed, and developed 5 experimental scenarios using CNN for predicting EEG signal processing, the model performed significantly higher accuracy than SVM in 4 tasks.</li>",
+  },
+  {
+    title: "Thai Language Specialist (Contract)",
     cardImage: "assets/images/experience-page/cerence.jpeg",
     place: "Cerence",
     time: "(Jun 2019 - Sep 2020)",
