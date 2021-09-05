@@ -33,7 +33,7 @@ const fillData = () => {
                             <img src="${image}" class="imgRes">
                         </span>
                     </div>
-                    <a href="#0" class="paperTitle"> ${title} </a>
+                    <a href="https://arxiv.org/abs/1808.10852" class="paperTitle"> ${title} </a>
                     <div> ${authors} </div> <div class="rConferences"> ${conferences}
                         <div class="researchY">${researchYr}</div>
                     </div>
