@@ -119,7 +119,7 @@ const showCards = () => {
                   </div>
                 </div>
                 <div class="card-body">
-                    <h6 class="mt-0 py-2 text-center font-weight-bold mooc-title" style="font-size:12px;">${title}</h6>
+                    <h6 class="mt-0 py-2 text-center font-weight-bold mooc-title" style="font-size:16px;">${title}</h6>
                 </div>
             </div>
         </div>

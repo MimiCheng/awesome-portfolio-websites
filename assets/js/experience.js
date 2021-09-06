@@ -10,7 +10,7 @@ const exp = [
     cardImage: "assets/images/experience-page/jumio.jpeg",
     place: "Jumio",
     time: "(May 2021 - present)",
-    desp: "<li>Developed self-supervised learning models such as Bootstrap Your Own Latent (BYOL) and Autoencoder for image search.</li> <li>Integrating and training ML models from POC to production using Amazon Web Services (AWS).</li> <li>Designed and created experiments to test the image search results.</li>",
+    desp: "<li>Developing self-supervised learning models such as Bootstrap Your Own Latent (BYOL) and Autoencoder for image similarity search.</li> <li>Integrating and training ML models from POC to production using Amazon Web Services (AWS).</li> <li>Designing experiments to test the image search results.</li>",
   },
   {
     title: "AI Engineer",
