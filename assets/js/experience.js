@@ -132,7 +132,7 @@ const mentor = [
     link: "https://github.com/MimiCheng/kaggle-protein-image-classification/blob/master/README.md"
   },
   {
-    title: "Kaggle Competition - Classification de dessins",
+    title: "Kaggle Competition - Hand-Drawn Image Classification",
     subtitle: "Ranked 5/68",
     image: "assets/images/experience-page/dessin.png",
     desp: "Developed models to classify muti-classes of hand drawn images by people around the world, as part of the project Quickdraw.",

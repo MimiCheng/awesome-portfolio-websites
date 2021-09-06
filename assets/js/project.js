@@ -68,7 +68,7 @@ const projects = [
   {
     title: "Image Similarity Search with self-supervised learnings",
     cardImage: "assets/images/experience-page/image-sim.jpeg",
-    description: "",
+    description: "Built self-supervised learning models such as Bootstrap Your Own Latent (BYOL) and Autoencoder for image similarity search",
     tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
     Previewlink: "",
     Githublink: "",
@@ -76,7 +76,7 @@ const projects = [
   {
     title: "Protein Classification",
     cardImage: "assets/images/experience-page/protein_image.png",
-    description: "Exercise tracker built using basic redux.",
+    description: "Developed models to classify mixed patterns of proteins in microscope images using Pytorch.",
     tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
     Previewlink: "https://github.com/MimiCheng/kaggle-protein-image-classification/blob/master/README.md",
     Githublink: "https://github.com/MimiCheng/kaggle-protein-image-classification/blob/master/README.md"
@@ -106,9 +106,9 @@ const projects = [
     Githublink: "https://github.com/MimiCheng/Music-Recommender-with-RNN",
   },
   {
-    title: "Hand-Drawn Image Classification",
+    title: "Classification de dessins",
     cardImage: "assets/images/project-page/dessin.png",
-    description: "Built a recommendation system with GPUs and LSTMs using Keras.",
+    description: "Developed models to classify muti-classes of hand drawn images by people around the world, as part of the project Quickdraw.",
     tagimg: "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
     Previewlink: "https://www.kaggle.com/c/ift3395-6390-quickdraw",
     Githublink: "https://drive.google.com/file/d/1tfgJ_MxgMytwucmYpDEsGr6wLmeywDxd/view?usp=sharing",
@@ -133,7 +133,7 @@ const projects = [
   {
     title: "Speech Source Separation",
     cardImage: "assets/images/experience-page/speechbrain.png",
-    description: "Flappy bird game built using React.js",
+    description: "Improve accuracy upon State-of-the-art performance on speech separation with Conv-TasNet, DualPath RNN, and SepFormer.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "https://docs.google.com/presentation/d/1csGcbgILSi6DdF_EbHgbV6tfjCAECj3nn1txJM6LIuo/edit?usp=sharing",
     Githublink: "https://github.com/mravanelli-mila/speechbrain_sep",
@@ -144,7 +144,7 @@ const projects = [
 const showCards = () => {
   let output = "";
   projects.forEach(
-    ({ title, cardImage, tags, Previewlink, Githublink }) => {
+    ({ title, cardImage, description, tags, Previewlink, Githublink }) => {
       (output += `
         <div class="column skill-card card" style="margin: 15px"data-aos="zoom-in-up" data-aos-easing="linear" data-aos-delay="300" data-aos-duration="600" >
           <div class="wrapper" style="background: url(${cardImage}) center / cover no-repeat;">
@@ -153,7 +153,8 @@ const showCards = () => {
             <div class="data">
               <div class="content">
               <div class="title-div">
-                <h1 class="title"><a href="${Previewlink}">${title}</a></h1>
+                <h1 class="title"><a href="${Previewlink}">${title}</a></h1
+                <p>${description}</p>
                 </div>
             <ul class="menu-content"><br>
                   <li><a href="${Previewlink}" class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" viewBox="0 0 30 28" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-monitor"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg></a></li>
