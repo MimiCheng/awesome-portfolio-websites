@@ -10,14 +10,14 @@ const exp = [
     cardImage: "assets/images/experience-page/jumio.jpeg",
     place: "Jumio",
     time: "(May 2021 - present)",
-    desp: "<li>Developing self-supervised learning models such as Bootstrap Your Own Latent (BYOL) and Autoencoder for image similarity search.</li> <li>Integrating and training ML models from POC to production using Amazon Web Services (AWS).</li> <li>Designing experiments to test the image search results.</li>",
+    desp: "<li>Developing self-supervised learning models such as Bootstrap Your Own Latent (BYOL) and Autoencoder for image similarity search.</li> <li>Integrating and training ML models from POC to production using Amazon Web Services (AWS).</li> <li>Designing and implementing experiments to evaluate image search results.</li>",
   },
   {
     title: "AI Engineer",
     cardImage: "assets/images/experience-page/truedigital.jpeg",
     place: "True Digital Group",
     time: "(Nov 2017 - Jul 2020)",
-    desp: "<li>Built, validated, tested, and identified improvement for recommendation systems with Neural Networks on Google Cloud Platform (GCP).</li><li>Developed Natural Language ​Latent Representation using Self-Supervised methods such as LDA, Doc2vec, and Word2vec.</li><li>Productionized​ data pre-​processing​ (ETL) jobs and algorithms written in Scala and Python.</li><li>Developed movie personalized reranking models with listwise approaches for ordering movies on shelves based on the user's watch history.</li>",
+    desp: "<li>Built, validated, tested, and identified improvement for recommendation systems with Neural Networks on Google Cloud Platform (GCP).</li><li>Developed Natural Language ​Latent Representation using Unsupervised Learning methods such as LDA, Doc2vec, and Word2vec.</li><li>Productionized​ data pre-​processing​ (ETL) jobs and algorithms written in Scala and Python.</li><li>Developed movie personalized reranking models with listwise approaches for ordering movies on shelves based on the user's watch history.</li>",
   },
   {
     title: "Research Assistant (Contract)",
